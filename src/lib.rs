@@ -5,6 +5,7 @@ use std::fs;
 use std::sync::{Arc, Mutex};
 use actix_web::web;
 use std::process::Command;
+use std::collections::HashMap;
 
 pub fn split_last(string: &str, delimiter: char) -> (&str, &str) {
   for (i, c) in string.chars().rev().enumerate() {
@@ -45,68 +46,83 @@ impl<'a> Image<'a> {
   }
 
   pub fn to_http_response(&mut self, image_cache: web::Data<Arc<Mutex<ImageCache>>>) -> HttpResponse {
-    self.prepare_http_response(image_cache.clone());
-    if let Ok(file) = fs::read(&self.file_name) {
-      image_cache.lock().unwrap().0.push(String::from(&self.file_name));
-      HttpResponse::Ok().content_type(self.to_mime_str()).body(file)
-    } else {
-      HttpResponse::NotFound().finish()
+    match self.prepare_http_response(image_cache.clone()) {
+      Some(file_data) => HttpResponse::Ok().content_type(self.to_mime_str()).body(file_data),
+      None => HttpResponse::NotFound().finish()
     }
   }
 
-  fn prepare_http_response(&mut self, image_cache: web::Data<Arc<Mutex<ImageCache>>>) {
-    let cache = image_cache.lock().unwrap();
-    println!("{:?}", cache.0);
-    if cache.0.contains(&self.file_name) {
-      return
-    } 
-    else {
-      let source_file_name = format!("{}.source", &self.name);
-      println!("{}", source_file_name);
-      let source_file: Vec<&String> = cache.0.iter().filter(|file| file.starts_with(&source_file_name)).collect();
-      if source_file.len() == 0 {
-        return
-      }
-      let source_file = source_file[0].clone();
-
-      match self.resize {
-        Some(size) => {
-          let (width, height) = split_last(size, 'x');
-          if self.file_name == "webp" {
-            Command::new("sh").arg("-c").arg(format!("webp -q 80 {} -o {} -resize {} {}", &source_file, self.file_name, width, height)).output().expect("failed command");
-          }
-          else {
-            println!("reached");
-            Command::new("sh").arg("-c").arg(format!("convert -resize {}x{} {} {}", if width == "0" { "10000" } else { width }, if height == "0" { "10000" } else { height }, &source_file, self.file_name)).output().expect("failed command");
+  /// prepares the http response by checking if the image is already cached else creating the image
+  /// then caching it. the return value (value) is equal to "the image wasn't cached yet".
+  fn prepare_http_response(&mut self, image_cache: web::Data<Arc<Mutex<ImageCache>>>) -> Option<Vec<u8>> {
+    let mut cache = image_cache.lock().unwrap();
+    // checking cache for image
+    match cache.0.get(&self.file_name) {
+      Some(file_data) => Some(file_data.clone()),   
+      // if image not cached yet
+      None => {
+        // finding source file for creating filtered image
+        for file in cache.0.keys() {
+          if file.starts_with(&format!("{}.source", &self.name)) {
+            self.make_file_from_source(file.clone());
+            let file_data = fs::read(&self.file_name).unwrap();
+            cache.0.insert(self.file_name.clone(), file_data.clone());
+            return Some(file_data)
           }
         }
-        None => {
+        // if no source file found
+        None
+      }
+    }
+  }
+
+  fn make_file_from_source(&mut self, source_file: String) {
+    match self.resize {
+      Some(size) => {
+        let (width, height) = split_last(size, 'x');
+        if self.file_name == "webp" {
+          Command::new("sh").arg("-c").arg(format!("webp -q 80 {} -o {} -resize {} {}", &source_file, self.file_name, width, height)).output().expect("failed command");
+        }
+        else {
+          Command::new("sh").arg("-c").arg(format!("convert -resize {}x{} {} {}", if width == "0" { "10000" } else { width }, if height == "0" { "10000" } else { height }, &source_file, self.file_name)).output().expect("failed command");
+        }
+      }
+      None => 
+        if self.file_name == "webp" {
+          Command::new("sh").arg("-c").arg(format!("webp -q 80 {} -o {}", &source_file, self.file_name)).output().expect("failed command");
+        }
+        else {
           self.file_name = source_file;
-          return
         }
-      }
-
     }
   }
 }
 
-#[derive(Debug)]
-pub struct ImageCache(Vec<String>);
+#[derive(Debug,Clone)]
+pub struct ImageCache(HashMap<String, Vec<u8>>);
 
-impl ImageCache{
+impl ImageCache {
   pub fn new() -> std::io::Result<ImageCache> {
-    let image_cache_vec = &mut Vec::<String>::new();
-    for file in fs::read_dir(".")? {
-      file?.file_name().to_str().and_then(|file_name| Some(image_cache_vec.push(file_name.into())));
-    }
-    Ok(ImageCache(image_cache_vec.clone()))
-  }
+    let mut image_cache: HashMap<String, Vec<u8>> = HashMap::new();
 
+    for file in fs::read_dir(".")? {
+      match file?.file_name().to_str() {
+        None => {},
+        Some(file_name) => 
+          if ["webp", "jpg", "jpeg", "png", "gif", "jfif"].contains(&file_name.split('.').next_back().unwrap()) {
+            image_cache.insert(file_name.into(), fs::read(file_name)?);
+          }
+      }
+    }
+    Ok(ImageCache(image_cache))
+  }
 }
+
 
 #[test]
 fn image_cache_test() {
   let image_cache = ImageCache::new().unwrap();
-  println!("{:?}", image_cache.0);
+  let file_names: Vec<&String> = image_cache.0.keys().collect();
+  println!("{:?}", file_names);
 }
  

@@ -30,13 +30,12 @@ async fn main() -> std::io::Result<()> {
     let data = Arc::new(Mutex::new(ImageCache::new().unwrap()));
 
     HttpServer::new(move || {
-        println!("{:?}", data.clone());
         App::new()
             .wrap(middleware::Logger::default())
             .data(data.clone())
             .service(get_image)
     })
-    .bind("127.0.0.1:9000")?
+    .bind("127.0.0.1:9001")?
     .run()
     .await
 }
