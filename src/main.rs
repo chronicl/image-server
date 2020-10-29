@@ -27,7 +27,7 @@ fn qs_test() {
 async fn main() -> std::io::Result<()> {
     std::env::set_var("RUST_LOG", "actix_web=trace");
     env_logger::init();
-    let data = Arc::new(Mutex::new(ImageCache::new().unwrap()));
+    let data = Arc::new(Mutex::new(ImageCache::new()));
 
     HttpServer::new(move || {
         App::new()

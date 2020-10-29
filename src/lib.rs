@@ -102,26 +102,15 @@ impl<'a> Image<'a> {
 pub struct ImageCache(HashMap<String, Vec<u8>>);
 
 impl ImageCache {
-  pub fn new() -> std::io::Result<ImageCache> {
-    let mut image_cache: HashMap<String, Vec<u8>> = HashMap::new();
-
-    for file in fs::read_dir(".")? {
-      match file?.file_name().to_str() {
-        None => {},
-        Some(file_name) => 
-          if ["webp", "jpg", "jpeg", "png", "gif", "jfif"].contains(&file_name.split('.').next_back().unwrap()) {
-            image_cache.insert(file_name.into(), fs::read(file_name)?);
-          }
-      }
-    }
-    Ok(ImageCache(image_cache))
+  pub fn new() -> ImageCache {
+    ImageCache(HashMap::new())
   }
 }
 
 
 #[test]
 fn image_cache_test() {
-  let image_cache = ImageCache::new().unwrap();
+  let image_cache = ImageCache::new();
   let file_names: Vec<&String> = image_cache.0.keys().collect();
   println!("{:?}", file_names);
 }
