@@ -58,26 +58,20 @@ impl<'a> Image<'a> {
   }
 
   pub fn to_http_response(&mut self, image_cache: web::Data<Arc<Mutex<ImageCache>>>) -> HttpResponse {
+
     match image_cache.lock().unwrap().prepare_http_response(self) {
       Some(file_data) => HttpResponse::Ok().content_type(self.to_mime_str()).body(file_data),
       None => HttpResponse::NotFound().finish()
     }
   }
-
-
 }
 
 #[derive(Debug,Clone)]
-pub struct ImageCache{
-  // file_name -> file_data
-  images: HashMap<String, Vec<u8>>,
-  // example: image_name -> image_name.source.jpg
-  sources: HashMap<String, String>
-}
+pub struct ImageCache(HashMap<String, String>);
 
 impl ImageCache {
   pub fn new() -> ImageCache {
-    ImageCache{images: HashMap::new(), sources: HashMap::new()}
+    ImageCache( HashMap::new())
   }
 
   fn update_sources(&mut self) -> std::io::Result<()> {    
@@ -93,29 +87,29 @@ impl ImageCache {
           }
       }
     }
-    self.sources = sources;
+    self.0 = sources;
     Ok(())
   }
-  
-  fn prepare_http_response(&mut self, image: &mut Image) -> Option<&Vec<u8>> {
+
+  fn prepare_http_response(&mut self, image: &mut Image) -> Option<Vec<u8>> {
     // checking cache for image
-    match self.images.get(&image.file_name) {
-      Some(file_data) => Some(file_data),   
+    match self.0.get(&image.file_name) {
+      Some(file_name) => Some(fs::read(file_name).unwrap()),   
       // if image not cached yet
       None => {
         // finding source file for creating filtered image
-        let mut source_file = self.sources.get(image.name);
+        let mut source_file = self.0.get(image.name);
         if source_file.is_none() {
             self.update_sources().expect("failed to update sources");
-            source_file = self.sources.get(image.name);
+            source_file = self.0.get(image.name);
         }
         if let Some(source_file) = source_file {
           self.make_file_from_source(source_file.clone(), image);
 
           let file_data = fs::read(&image.file_name).unwrap();
-          self.sources.insert(image.file_name.clone(), image.file_name.clone());
+          self.0.insert(image.file_name.clone(), image.file_name.clone());
 
-          return Some(&file_data)
+          return Some(file_data)
         }
         // if no source file found
         None
@@ -149,7 +143,7 @@ impl ImageCache {
 #[test]
 fn image_cache_test() {
   let image_cache = ImageCache::new();
-  let file_names: Vec<&String> = image_cache.images.keys().collect();
+  let file_names: Vec<&String> = image_cache.0.keys().collect();
   println!("{:?}", file_names);
 }
 
@@ -157,5 +151,5 @@ fn image_cache_test() {
 fn update_sources_test() {
   let mut image_cache = ImageCache::new();
   image_cache.update_sources().unwrap();
-  println!("{:?}", image_cache.sources);
+  println!("{:?}", image_cache.0);
 }

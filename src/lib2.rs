@@ -75,7 +75,7 @@ impl<'a> Image<'a> {
         match self.resize {
           Some(size) => {
             let (width, height) = split_last(size, 'x');
-            if self.file_name == "webp" {
+            if self.image_type == "webp" {
               Command::new("sh").arg("-c").arg(format!("webp -q 80 {} -o {} -resize {} {}", &source_file, self.file_name, width, height)).output().expect("failed command");
             }
             else {
@@ -84,7 +84,7 @@ impl<'a> Image<'a> {
             return true
           }
           None => {
-            if self.file_name == "webp" {
+            if self.image_type == "webp" {
               Command::new("sh").arg("-c").arg(format!("webp -q 80 {} -o {}", &source_file, self.file_name)).output().expect("failed command");
             }
             else {
