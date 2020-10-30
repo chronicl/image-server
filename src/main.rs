@@ -1,27 +1,26 @@
 #![allow(dead_code)]
-use actix_web::{middleware, get, web::{Data, Path}, App, HttpRequest, HttpServer, Responder};
-use serde::{Deserialize};
-use serde_qs;
+use actix_web::{
+    get, middleware,
+    web::{Data, Path},
+    App, HttpRequest, HttpServer, Responder,
+};
 use image_filter::{Image, ImageCache};
+
 use std::sync::{Arc, Mutex};
 
-#[derive(Deserialize,Debug)]
-struct Params<'a>{
-    size: Option<&'a str>,
-}
-
-
 #[get("/images/{image}")]
-async fn get_image(req: HttpRequest, Path(image): Path<String>, data: Data<Arc<Mutex<ImageCache>>>) -> impl Responder {
-    let params: Params = serde_qs::from_str(req.query_string()).unwrap();
-    
-    Image::new(&image).resize(params.size).to_http_response(data)
+async fn get_image(
+    req: HttpRequest,
+    Path(image): Path<String>,
+    data: Data<Arc<Mutex<ImageCache>>>,
+) -> impl Responder {
+    Image::new(&image)
+        .filter_from_qs(req.query_string())
+        .to_http_response(data)
 }
 
 #[test]
-fn qs_test() {
-    
-}
+fn qs_test() {}
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
