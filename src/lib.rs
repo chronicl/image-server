@@ -5,12 +5,24 @@ use std::fs;
 use std::sync::{Arc, Mutex};
 use actix_web::web;
 use std::process::Command;
-use std::collections::HashMap;
+use std::collections::{HashMap};
 
 pub fn split_last(string: &str, delimiter: char) -> (&str, &str) {
   for (i, c) in string.chars().rev().enumerate() {
     if c == delimiter {
       return (&string[..(string.len() - i - 1)], &string[(string.len() - i)..])
+    }
+  }
+  (string, "")
+}
+
+pub fn split_back(string: &str, delimiter: char, mut count: u8) -> (&str, &str) {
+  for (i, c) in string.chars().rev().enumerate() {
+    if c == delimiter {
+      count -= 1;
+      if count == 0 {
+        return (&string[..(string.len() - i - 1)], &string[(string.len() - i)..])
+      }
     }
   }
   (string, "")
@@ -57,18 +69,23 @@ impl<'a> Image<'a> {
   fn prepare_http_response(&mut self, image_cache: web::Data<Arc<Mutex<ImageCache>>>) -> Option<Vec<u8>> {
     let mut cache = image_cache.lock().unwrap();
     // checking cache for image
-    match cache.0.get(&self.file_name) {
+    match cache.images.get(&self.file_name) {
       Some(file_data) => Some(file_data.clone()),   
       // if image not cached yet
       None => {
         // finding source file for creating filtered image
-        for file in cache.0.keys() {
-          if file.starts_with(&format!("{}.source", &self.name)) {
-            self.make_file_from_source(file.clone());
-            let file_data = fs::read(&self.file_name).unwrap();
-            cache.0.insert(self.file_name.clone(), file_data.clone());
-            return Some(file_data)
-          }
+        let mut source_file = cache.sources.get(self.name);
+        if source_file.is_none() {
+            cache.update_sources().expect("failed to update sources");
+            source_file = cache.sources.get(self.name);
+        }
+        if let Some(source_file) = source_file {
+          self.make_file_from_source(source_file.clone());
+
+          let file_data = fs::read(&self.file_name).unwrap();
+          cache.images.insert(self.file_name.clone(), file_data.clone());
+
+          return Some(file_data)
         }
         // if no source file found
         None
@@ -99,11 +116,32 @@ impl<'a> Image<'a> {
 }
 
 #[derive(Debug,Clone)]
-pub struct ImageCache(HashMap<String, Vec<u8>>);
+pub struct ImageCache{
+  // file_name -> file_data
+  images: HashMap<String, Vec<u8>>,
+  // example: image_name -> image_name.source.jpg
+  sources: HashMap<String, String>
+}
 
 impl ImageCache {
   pub fn new() -> ImageCache {
-    ImageCache(HashMap::new())
+    ImageCache{images: HashMap::new(), sources: HashMap::new()}
+  }
+
+  fn update_sources(&mut self) -> std::io::Result<()> {
+    let mut sources = HashMap::<String, String>::new();
+    for file in fs::read_dir(".")? {
+      match file?.file_name().to_str() {
+        None => {},
+        Some(file_name) =>
+          if file_name.contains(".source") {
+            let (name, _image_type) = split_back(file_name, '.', 2);
+            sources.insert(name.into(), file_name.into());
+          }
+      }
+    }
+    self.sources = sources;
+    Ok(())
   }
 }
 
@@ -111,7 +149,13 @@ impl ImageCache {
 #[test]
 fn image_cache_test() {
   let image_cache = ImageCache::new();
-  let file_names: Vec<&String> = image_cache.0.keys().collect();
+  let file_names: Vec<&String> = image_cache.images.keys().collect();
   println!("{:?}", file_names);
 }
- 
+
+#[test]
+fn update_sources_test() {
+  let mut image_cache = ImageCache::new();
+  image_cache.update_sources().unwrap();
+  println!("{:?}", image_cache.sources);
+}

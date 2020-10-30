@@ -12,7 +12,7 @@ fn get_image(size: &str, image: &str, data: web::Data<Arc<Mutex<ImageCache>>>) {
 
 
 fn bench_get_image(c: &mut Criterion) {
-  let data = web::Data::new(Arc::new(Mutex::new(ImageCache::new().unwrap())));
+  let data = web::Data::new(Arc::new(Mutex::new(ImageCache::new())));
 
   c.bench_with_input(BenchmarkId::new("input_example", 1), &data, |b, d| {
       b.iter(|| get_image("400x300", "grin.jpeg", d.clone()));
