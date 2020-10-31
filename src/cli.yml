@@ -1,0 +1,28 @@
+name: image-filter
+version: "0.1"
+author: <lxrtlxrt@gmail.com>
+about: A rust web server for resizing and or converting images to webp
+args:
+  - port:
+      short: p
+      long: port
+      value_name: NUMBER
+      help: "Set port for server"
+      takes_value: true
+  - whitelist:
+      short: w
+      long: whitelist
+      value_name: FILE
+      help: "Set whitelist file (each line is <IMAGENAME>[?<QUERYSTRING>] which is the same as the last part of the url path being requested ex: moutain.jpg?width=500)"
+      takes_value: true
+  - cache:
+      short: c
+      long: cache
+      value_name: BOOL
+      help: "Store images in RAM after first request (faster but more memory usage; default: true, not yet implemented to turn off)"
+      takes_value: true
+  - directory:
+      short: d
+      long: directory
+      value_name: DIR
+      help: Set image directory

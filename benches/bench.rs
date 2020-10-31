@@ -8,9 +8,7 @@ use std::sync::{Arc, Mutex};
 const image: &str = "grin.jpeg";
 
 fn get_image(data: web::Data<Arc<Mutex<ImageCache>>>) {
-  Image::new(image)
-    .filter_from_qs("width=500")
-    .to_http_response(data);
+  Image::new(image).filter_from_qs("").to_http_response(data);
 }
 
 fn bench_get_image(c: &mut Criterion) {

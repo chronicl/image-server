@@ -3,14 +3,14 @@
 use actix_web::web;
 use actix_web::HttpResponse;
 use serde::Deserialize;
-use serde_qs;
 use std::collections::HashMap;
 use std::fs;
 use std::process::Command;
 use std::sync::{Arc, Mutex};
+
 // DO GZIP
 
-fn split_last(string: &str, delimiter: char) -> (&str, &str) {
+pub fn split_last(string: &str, delimiter: char) -> (&str, &str) {
   for (i, c) in string.chars().rev().enumerate() {
     if c == delimiter {
       return (
@@ -151,6 +151,9 @@ impl<'a> Image<'a> {
   }
 
   pub fn filter_from_qs(&mut self, qs: &str) -> &mut Self {
+    if qs == "" {
+      return self;
+    };
     self.filter(Filter::from_qs(qs).ok())
   }
 
