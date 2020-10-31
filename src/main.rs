@@ -43,9 +43,17 @@ async fn main() -> std::io::Result<()> {
 
     let yaml = load_yaml!("cli.yml");
     let matches = clap::App::from_yaml(yaml).get_matches();
+
     std::env::set_current_dir(matches.value_of("directory").unwrap_or(".")).unwrap();
+    println!(
+        "Images being read from: {:?}.",
+        std::env::current_dir().unwrap()
+    );
+    println!("Make sure that the source images are marked as <image-name>.source.<image-type>.\nFor example if you want to be able to request mountain.jpg, name the source file mountain.source.jpg.\n");
+
     let port = matches.value_of("port").unwrap_or("9000");
     let socket = ["127.0.0.1:", port].concat();
+    println!("Listening on {}", socket);
 
     match matches.value_of("whitelist") {
         None => {
