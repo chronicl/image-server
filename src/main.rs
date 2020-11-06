@@ -85,7 +85,7 @@ async fn main() -> std::io::Result<()> {
     println!("Make sure that the source images are marked as <image-name>.source.<image-type>.\nFor example if you want to be able to request mountain.jpg, name the source file mountain.source.jpg.\n");
 
     let port = matches.value_of("port").unwrap_or("9000");
-    let socket = ["127.0.0.1:", port].concat();
+    let socket = ["0.0.0.0:", port].concat();
     println!("Listening on {}", socket);
 
     match matches.value_of("whitelist") {
