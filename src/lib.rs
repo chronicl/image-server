@@ -87,7 +87,7 @@ impl Filter {
       }
 
       format!(
-        "convert {} -quality 100 {} {}",
+        "convert {} -quality 100 -density 300 {} {}",
         filter_options, input, output
       )
     }
