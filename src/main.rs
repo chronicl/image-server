@@ -6,12 +6,15 @@ use actix_web::{
     App, HttpRequest, HttpResponse, HttpServer, Responder,
 };
 use futures::future::FutureExt;
-use image_filter::{split_last, Image, ImageCache};
+use image_server::{split_last, whitelist, Image, ImageCache};
 use std::collections::HashSet;
-
-use std::fs::File;
-use std::io::{self, BufRead};
+use std::fs::{self, File, OpenOptions};
+use std::io::{self, BufRead, Write};
 use std::path;
+
+#[macro_use]
+extern crate clap;
+use std::sync::{Arc, Mutex};
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
 where
@@ -20,10 +23,6 @@ where
     let file = File::open(filename)?;
     Ok(io::BufReader::new(file).lines())
 }
-
-#[macro_use]
-extern crate clap;
-use std::sync::{Arc, Mutex};
 
 #[get("/images/{image}")]
 async fn get_image(
@@ -37,12 +36,46 @@ async fn get_image(
     res
 }
 
+#[get("/images/{image}")]
+async fn get_image_create_whitelist(
+    req: HttpRequest,
+    Path(image): Path<String>,
+    data: Data<Arc<Mutex<ImageCache>>>,
+) -> impl Responder {
+    let uri = req.uri().to_string();
+    let (_, file_name) = split_last(&uri, '/');
+    let mut already_in_whitelist = false;
+    for line in read_lines("whitelist").unwrap() {
+        if line.unwrap() == file_name {
+            already_in_whitelist = true;
+            break;
+        }
+    }
+    if !already_in_whitelist {
+        let mut file = OpenOptions::new().append(true).open("whitelist").unwrap();
+        file.write_all([file_name, "\n"].concat().as_bytes())
+            .unwrap();
+    }
+    let res = Image::new(&image)
+        .filter_from_qs(req.query_string())
+        .to_http_response(data);
+    res
+}
+
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     let data = Arc::new(Mutex::new(ImageCache::new()));
 
     let yaml = load_yaml!("cli.yml");
     let matches = clap::App::from_yaml(yaml).get_matches();
+    if let ("whitelist", Some(subargs)) = matches.subcommand() {
+        whitelist::Whitelist::new(
+            subargs.value_of("directory").unwrap_or("."),
+            subargs.value_of("preceding-pattern").unwrap_or("images/"),
+        )
+        .build();
+        return Ok(());
+    }
 
     std::env::set_current_dir(matches.value_of("directory").unwrap_or(".")).unwrap();
     println!(
@@ -57,10 +90,30 @@ async fn main() -> std::io::Result<()> {
 
     match matches.value_of("whitelist") {
         None => {
-            HttpServer::new(move || App::new().data(data.clone()).service(get_image))
+            if matches.is_present("track-for-whitelist") {
+                OpenOptions::new()
+                    .create(true)
+                    .append(true)
+                    .open("whitelist")
+                    .unwrap();
+                println!(
+                    "Api calls being written to whitelist in {:?}",
+                    std::env::current_dir().unwrap(),
+                );
+                HttpServer::new(move || {
+                    App::new()
+                        .data(data.clone())
+                        .service(get_image_create_whitelist)
+                })
                 .bind(socket)?
                 .run()
                 .await
+            } else {
+                HttpServer::new(move || App::new().data(data.clone()).service(get_image))
+                    .bind(socket)?
+                    .run()
+                    .await
+            }
         }
         Some(whitelist) => {
             let whitelist: HashSet<String> = read_lines(whitelist)

@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-#![feature(str_split_once)]
+#![feature(pattern)]
 use actix_web::web;
 use actix_web::HttpResponse;
 use serde::Deserialize;
@@ -7,8 +7,7 @@ use std::collections::HashMap;
 use std::fs;
 use std::process::Command;
 use std::sync::{Arc, Mutex};
-
-// DO GZIP
+pub mod whitelist;
 
 pub fn split_last(string: &str, delimiter: char) -> (&str, &str) {
   for (i, c) in string.chars().rev().enumerate() {

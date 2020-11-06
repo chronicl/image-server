@@ -1,0 +1,2253 @@
+
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/etc/xdg//nvim)
+chdir(/home/eto/projects/image-filter)
+could not source "/etc/xdg//nvim/sysinit.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim)
+chdir(/home/eto/projects/image-filter)
+sourcing "$VIM/sysinit.vim"
+finished sourcing $VIM/sysinit.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim)
+chdir(/home/eto/projects/image-filter)
+sourcing "/home/eto/.config/nvim/init.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.config/nvim/modules/base.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/colors)
+chdir(/home/eto/projects/image-filter)
+line 1: sourcing "/home/eto/.config/nvim/colors/base16-tomorrow-night.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 147: sourcing "/usr/share/nvim/runtime/syntax/syncolor.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+continuing in /home/eto/.config/nvim/colors/base16-tomorrow-night.vim
+finished sourcing /home/eto/.config/nvim/colors/base16-tomorrow-night.vim
+continuing in /home/eto/.config/nvim/modules/base.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 50: sourcing "/usr/share/nvim/runtime/syntax/syntax.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 19: sourcing "/usr/share/nvim/runtime/syntax/synload.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/colors)
+chdir(/home/eto/projects/image-filter)
+line 19: sourcing "/home/eto/.config/nvim/colors/base16-tomorrow-night.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 146: sourcing "/usr/share/nvim/runtime/syntax/syncolor.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+continuing in /home/eto/.config/nvim/colors/base16-tomorrow-night.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 147: sourcing "/usr/share/nvim/runtime/syntax/syncolor.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+continuing in /home/eto/.config/nvim/colors/base16-tomorrow-night.vim
+finished sourcing /home/eto/.config/nvim/colors/base16-tomorrow-night.vim
+continuing in /usr/share/nvim/runtime/syntax/synload.vim
+finished sourcing /usr/share/nvim/runtime/syntax/synload.vim
+continuing in /usr/share/nvim/runtime/syntax/syntax.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 25: sourcing "/usr/share/nvim/runtime/filetype.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/vim/vimfiles/ftdetect)
+chdir(/home/eto/projects/image-filter)
+line 2229: sourcing "/usr/share/vim/vimfiles/ftdetect/dockerfile.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/dockerfile.vim
+continuing in /usr/share/nvim/runtime/filetype.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/vim/vimfiles/ftdetect)
+chdir(/home/eto/projects/image-filter)
+line 2229: sourcing "/usr/share/vim/vimfiles/ftdetect/nginx.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/nginx.vim
+continuing in /usr/share/nvim/runtime/filetype.vim
+finished sourcing /usr/share/nvim/runtime/filetype.vim
+continuing in /usr/share/nvim/runtime/syntax/syntax.vim
+finished sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+continuing in /home/eto/.config/nvim/modules/base.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 51: sourcing "/usr/share/nvim/runtime/filetype.vim"
+finished sourcing /usr/share/nvim/runtime/filetype.vim
+continuing in /home/eto/.config/nvim/modules/base.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 51: sourcing "/usr/share/nvim/runtime/ftplugin.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin.vim
+continuing in /home/eto/.config/nvim/modules/base.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 51: sourcing "/usr/share/nvim/runtime/indent.vim"
+finished sourcing /usr/share/nvim/runtime/indent.vim
+continuing in /home/eto/.config/nvim/modules/base.vim
+finished sourcing /home/eto/.config/nvim/modules/base.vim
+continuing in /home/eto/.config/nvim/init.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.config/nvim/modules/plug.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.local/share/nvim/site/autoload)
+chdir(/home/eto/projects/image-filter)
+line 1: sourcing "/home/eto/.local/share/nvim/site/autoload/plug.vim"
+finished sourcing /home/eto/.local/share/nvim/site/autoload/plug.vim
+continuing in /home/eto/.config/nvim/modules/plug.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/usr/share/nvim/runtime/ftoff.vim"
+finished sourcing /usr/share/nvim/runtime/ftoff.vim
+continuing in function plug#end
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 83: sourcing "/usr/share/nvim/runtime/filetype.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/vim/vimfiles/ftdetect)
+chdir(/home/eto/projects/image-filter)
+line 2229: sourcing "/usr/share/vim/vimfiles/ftdetect/dockerfile.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/dockerfile.vim
+continuing in /usr/share/nvim/runtime/filetype.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/vim/vimfiles/ftdetect)
+chdir(/home/eto/projects/image-filter)
+line 2229: sourcing "/usr/share/vim/vimfiles/ftdetect/nginx.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/nginx.vim
+continuing in /usr/share/nvim/runtime/filetype.vim
+finished sourcing /usr/share/nvim/runtime/filetype.vim
+continuing in function plug#end
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 83: sourcing "/usr/share/nvim/runtime/ftplugin.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin.vim
+continuing in function plug#end
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+line 83: sourcing "/usr/share/nvim/runtime/indent.vim"
+finished sourcing /usr/share/nvim/runtime/indent.vim
+continuing in function plug#end
+finished sourcing /home/eto/.config/nvim/modules/plug.vim
+continuing in /home/eto/.config/nvim/init.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.config/nvim/modules/nvim-lsp.vim"
+finished sourcing /home/eto/.config/nvim/modules/nvim-lsp.vim
+continuing in /home/eto/.config/nvim/init.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.config/nvim/modules/lsp-settings.vim"
+finished sourcing /home/eto/.config/nvim/modules/lsp-settings.vim
+continuing in /home/eto/.config/nvim/init.vim
+finished sourcing /home/eto/.config/nvim/init.vim
+not found in 'packpath': "pack/*/start/*"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nvim-lspconfig/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/home/eto/.vim/plugged/nvim-lspconfig/plugin/nvim_lsp.vim"
+finished sourcing /home/eto/.vim/plugged/nvim-lspconfig/plugin/nvim_lsp.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/completion-nvim/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/home/eto/.vim/plugged/completion-nvim/plugin/completion.vim"
+finished sourcing /home/eto/.vim/plugged/completion-nvim/plugin/completion.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/diagnostic-nvim/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/home/eto/.vim/plugged/diagnostic-nvim/plugin/diagnostic.vim"
+finished sourcing /home/eto/.vim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/home/eto/.vim/plugged/nerdtree/plugin/NERD_tree.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/autoload)
+chdir(/home/eto/projects/image-filter)
+line 56: sourcing "/home/eto/.vim/plugged/nerdtree/autoload/nerdtree.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/autoload/nerdtree.vim
+continuing in /home/eto/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 1: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/path.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/path.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 2: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 4: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 5: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 6: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 7: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 8: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/opener.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/opener.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 9: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/creator.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/creator.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 10: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 11: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 12: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/ui.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/ui.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 13: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/event.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/event.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/lib/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/home/eto/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/lib/nerdtree/notifier.vim
+continuing in function nerdtree#loadClassFiles
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/autoload/nerdtree)
+chdir(/home/eto/projects/image-filter)
+line 143: sourcing "/home/eto/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+continuing in /home/eto/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/nerdtree_plugin)
+chdir(/home/eto/projects/image-filter)
+line 5: sourcing "/home/eto/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+continuing in function nerdtree#postSourceActions
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/nerdtree_plugin)
+chdir(/home/eto/projects/image-filter)
+line 5: sourcing "/home/eto/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/autoload/provider)
+chdir(/home/eto/projects/image-filter)
+line 44: sourcing "/usr/share/nvim/runtime/autoload/provider/clipboard.vim"
+finished sourcing /usr/share/nvim/runtime/autoload/provider/clipboard.vim
+continuing in /home/eto/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+finished sourcing /home/eto/.vim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+continuing in function nerdtree#postSourceActions
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree/nerdtree_plugin)
+chdir(/home/eto/projects/image-filter)
+line 5: sourcing "/home/eto/.vim/plugged/nerdtree/nerdtree_plugin/vcs.vim"
+finished sourcing /home/eto/.vim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+continuing in function nerdtree#postSourceActions
+finished sourcing /home/eto/.vim/plugged/nerdtree/plugin/NERD_tree.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/health.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/health.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/man.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/man.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nvim-lspconfig)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/lsp_extensions.nvim)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/completion-nvim)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/diagnostic-nvim)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/vim-css-color)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.vim/plugged/nerdtree)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/etc/xdg/nvim)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.local/share/nvim/site)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/local/share/nvim/site)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/site)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/pack/dist/opt)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /usr/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/rplugin.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.local/share/nvim)
+chdir(/home/eto/projects/image-filter)
+line 3: sourcing "/home/eto/.local/share/nvim/rplugin.vim"
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/autoload/remote)
+chdir(/home/eto/projects/image-filter)
+line 8: sourcing "/usr/share/nvim/runtime/autoload/remote/host.vim"
+finished sourcing /usr/share/nvim/runtime/autoload/remote/host.vim
+continuing in /home/eto/.local/share/nvim/rplugin.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/autoload/remote)
+chdir(/home/eto/projects/image-filter)
+line 34: sourcing "/usr/share/nvim/runtime/autoload/remote/define.vim"
+finished sourcing /usr/share/nvim/runtime/autoload/remote/define.vim
+continuing in function remote#host#RegisterPlugin
+finished sourcing /home/eto/.local/share/nvim/rplugin.vim
+continuing in function <SNR>49_LoadRemotePlugins
+finished sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/shada.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/tohtml.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/plugin)
+chdir(/home/eto/projects/image-filter)
+sourcing "/usr/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+not found in 'packpath': "pack/*/start/*"
+not found in 'runtimepath': "plugin/**/*.vim"
+Reading ShaDa file "/home/eto/.local/share/nvim/shada/main.shada" info marks oldfiles
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+"src/main.rs" 101L, 3235C
+Reading ShaDa file "/home/eto/.local/share/nvim/shada/main.shada" marks
+Executing BufReadPost Autocommands for "*.rs"
+autocommand setf rust
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/rust.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/rust.vim
+continuing in function <SNR>7_SynSet
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/rust.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/after/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/home/eto/.config/nvim/after/ftplugin/rust.vim"
+finished sourcing /home/eto/.config/nvim/after/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/indent)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/usr/share/nvim/runtime/indent/rust.vim"
+finished sourcing /usr/share/nvim/runtime/indent/rust.vim
+continuing in function <SNR>12_LoadIndent
+Executing FileType Autocommands for "rust"
+autocommand lua require'nvim_lsp'["rust_analyzer"].manager.try_add()
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing BufEnter Autocommands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Autocommands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing CursorMoved Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+--- Terminal info --- {{{
+&term: xterm-kitty
+Description: KovIdTTY
+Aliases: xterm-kitty
+Boolean capabilities:
+  auto_left_margin          bw         = false
+  auto_right_margin         am         = true
+  no_esc_ctlc               xsb        = false
+  ceol_standout_glitch      xhp        = false
+  eat_newline_glitch        xenl       = true
+  erase_overstrike          eo         = false
+  generic_type              gn         = false
+  hard_copy                 hc         = false
+  has_meta_key              km         = true
+  has_status_line           hs         = true
+  insert_null_glitch        in         = false
+  memory_above              da         = false
+  memory_below              db         = false
+  move_insert_mode          mir        = true
+  move_standout_mode        msgr       = true
+  over_strike               os         = false
+  status_line_esc_ok        eslok      = false
+  dest_tabs_magic_smso      xt         = false
+  tilde_glitch              hz         = false
+  transparent_underline     ul         = false
+  xon_xoff                  xon        = false
+  needs_xon_xoff            nxon       = false
+  prtr_silent               mc5i       = true
+  hard_cursor               chts       = false
+  non_rev_rmcup             nrrmc      = false
+  no_pad_char               npc        = true
+  non_dest_scroll_region    ndscr      = false
+  can_change                ccc        = true
+  back_color_erase          bce        = false
+  hue_lightness_saturation  hls        = false
+  col_addr_glitch           xhpa       = false
+  cr_cancels_micro_mode     crxm       = false
+  has_print_wheel           daisy      = false
+  row_addr_glitch           xvpa       = false
+  semi_auto_right_margin    sam        = false
+  cpi_changes_res           cpix       = false
+  lpi_changes_res           lpix       = false
+  backspaces_with_bs        OTbs       = false
+  crt_no_scrolling          OTns       = false
+  no_correctly_working_cr   OTnc       = false
+  gnu_has_meta_key          OTMT       = false
+  linefeed_is_newline       OTNL       = false
+  has_hardware_tabs         OTpt       = false
+  return_does_clr_eol       OTxr       = false
+Numeric capabilities:
+  columns                   cols       = 80
+  init_tabs                 it         = 8
+  lines                     lines      = 24
+  lines_of_memory           lm         = -1
+  magic_cookie_glitch       xmc        = -1
+  padding_baud_rate         pb         = -1
+  virtual_terminal          vt         = -1
+  width_status_line         wsl        = -1
+  num_labels                nlab       = -1
+  label_height              lh         = -1
+  label_width               lw         = -1
+  max_attributes            ma         = -1
+  maximum_windows           wnum       = -1
+  max_colors                colors     = 256
+  max_pairs                 pairs      = 32767
+  no_color_video            ncv        = -1
+  buffer_capacity           bufsz      = -1
+  dot_vert_spacing          spinv      = -1
+  dot_horz_spacing          spinh      = -1
+  max_micro_address         maddr      = -1
+  max_micro_jump            mjump      = -1
+  micro_col_size            mcs        = -1
+  micro_line_size           mls        = -1
+  number_of_pins            npins      = -1
+  output_res_char           orc        = -1
+  output_res_line           orl        = -1
+  output_res_horz_inch      orhi       = -1
+  output_res_vert_inch      orvi       = -1
+  print_rate                cps        = -1
+  wide_char_size            widcs      = -1
+  buttons                   btns       = -1
+  bit_image_entwining       bitwin     = -1
+  bit_image_type            bitype     = -1
+  magic_cookie_glitch_ul    OTug       = -1
+  carriage_return_delay     OTdC       = -1
+  new_line_delay            OTdN       = -1
+  backspace_delay           OTdB       = -1
+  horizontal_tab_delay      OTdT       = -1
+  number_of_function_keys   OTkn       = -1
+String capabilities:
+  back_tab                  cbt        = <Esc>[Z
+  bell                      bel        = <C-G>
+  carriage_return           cr         = <CR>
+  change_scroll_region      csr        = <Esc>[%i%p1%d;%p2%dr
+  clear_all_tabs            tbc        = <Esc>[3g
+  clear_screen              clear      = <Esc>[H<Esc>[2J
+  clr_eol                   el         = <Esc>[K
+  clr_eos                   ed         = <Esc>[J
+  column_address            hpa        = <Esc>[%i%p1%dG
+  cursor_address            cup        = <Esc>[%i%p1%d;%p2%dH
+  cursor_down               cud1       = <NL>
+  cursor_home               home       = <Esc>[H
+  cursor_invisible          civis      = <Esc>[?25l
+  cursor_left               cub1       = <C-H>
+  cursor_normal             cnorm      = <Esc>[?25h
+  cursor_right              cuf1       = <Esc>[C
+  cursor_up                 cuu1       = <Esc>[A
+  cursor_visible            cvvis      = <Esc>[?12;25h
+  delete_character          dch1       = <Esc>[P
+  delete_line               dl1        = <Esc>[M
+  dis_status_line           dsl        = <Esc>]2;<C-G>
+  enter_alt_charset_mode    smacs      = <Esc>(0
+  enter_bold_mode           bold       = <Esc>[1m
+  enter_ca_mode             smcup      = <Esc>[?1049h
+  enter_dim_mode            dim        = <Esc>[2m
+  enter_insert_mode         smir       = <Esc>[4h
+  enter_reverse_mode        rev        = <Esc>[7m
+  enter_standout_mode       smso       = <Esc>[7m
+  enter_underline_mode      smul       = <Esc>[4m
+  erase_chars               ech        = <Esc>[%p1%dX
+  exit_alt_charset_mode     rmacs      = <Esc>(B
+  exit_attribute_mode       sgr0       = <Esc>(B<Esc>[m
+  exit_ca_mode              rmcup      = <Esc>[?1049l
+  exit_insert_mode          rmir       = <Esc>[4l
+  exit_standout_mode        rmso       = <Esc>[27m
+  exit_underline_mode       rmul       = <Esc>[24m
+  flash_screen              flash      = <Esc>[?5h$<100/><Esc>[?5l
+  from_status_line          fsl        = <C-G>
+  insert_line               il1        = <Esc>[L
+  key_backspace             kbs        = <^?>
+  key_dc                    kdch1      = <Esc>[3~
+  key_down                  kcud1      = <Esc>OB
+  key_f1                    kf1        = <Esc>OP
+  key_f10                   kf10       = <Esc>[21~
+  key_f2                    kf2        = <Esc>OQ
+  key_f3                    kf3        = <Esc>OR
+  key_f4                    kf4        = <Esc>OS
+  key_f5                    kf5        = <Esc>[15~
+  key_f6                    kf6        = <Esc>[17~
+  key_f7                    kf7        = <Esc>[18~
+  key_f8                    kf8        = <Esc>[19~
+  key_f9                    kf9        = <Esc>[20~
+  key_home                  khome      = <Esc>OH
+  key_ic                    kich1      = <Esc>[2~
+  key_left                  kcub1      = <Esc>OD
+  key_npage                 knp        = <Esc>[6~
+  key_ppage                 kpp        = <Esc>[5~
+  key_right                 kcuf1      = <Esc>OC
+  key_sf                    kind       = <Esc>[1;2B
+  key_sr                    kri        = <Esc>[1;2A
+  key_up                    kcuu1      = <Esc>OA
+  keypad_local              rmkx       = <Esc>[?1l
+  keypad_xmit               smkx       = <Esc>[?1h
+  parm_dch                  dch        = <Esc>[%p1%dP
+  parm_delete_line          dl         = <Esc>[%p1%dM
+  parm_down_cursor          cud        = <Esc>[%p1%dB
+  parm_ich                  ich        = <Esc>[%p1%d@
+  parm_index                indn       = <Esc>[%p1%dS
+  parm_insert_line          il         = <Esc>[%p1%dL
+  parm_left_cursor          cub        = <Esc>[%p1%dD
+  parm_right_cursor         cuf        = <Esc>[%p1%dC
+  parm_rindex               rin        = <Esc>[%p1%dT
+  parm_up_cursor            cuu        = <Esc>[%p1%dA
+  repeat_char               rep        = %p1%c<Esc>[%p2%{1}%-%db
+  reset_1string             rs1        = <Esc>]<Esc>\<Esc>c
+  restore_cursor            rc         = <Esc>8
+  row_address               vpa        = <Esc>[%i%p1%dd
+  save_cursor               sc         = <Esc>7
+  scroll_forward            ind        = <NL>
+  scroll_reverse            ri         = <Esc>M
+  set_attributes            sgr        = %?%p9%t<Esc>(0%e<Esc>(B%;<Esc>[0%?%p6%t;1%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p7%t;8%;m
+  set_tab                   hts        = <Esc>H
+  tab                       ht         = <Tab>
+  to_status_line            tsl        = <Esc>]2;
+  key_a1                    ka1        = 
+  key_a3                    ka3        = 
+  key_c1                    kc1        = 
+  key_c3                    kc3        = 
+  acs_chars                 acsc       = ++,,--..00``aaffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~
+  key_btab                  kcbt       = <Esc>[Z
+  enter_am_mode             smam       = <Esc>[?7h
+  exit_am_mode              rmam       = <Esc>[?7l
+  key_end                   kend       = <Esc>OF
+  key_help                  khlp       = 
+  key_undo                  kund       = 
+  key_sdc                   kDC        = <Esc>[3;2~
+  key_send                  kEND       = <Esc>[1;2F
+  key_shome                 kHOM       = <Esc>[1;2H
+  key_sic                   kIC        = <Esc>[2;2~
+  key_sleft                 kLFT       = <Esc>[1;2D
+  key_snext                 kNXT       = <Esc>[6;2~
+  key_sprevious             kPRV       = <Esc>[5;2~
+  key_sright                kRIT       = <Esc>[1;2C
+  key_f11                   kf11       = <Esc>[23~
+  key_f12                   kf12       = <Esc>[24~
+  key_f13                   kf13       = <Esc>[1;2P
+  key_f14                   kf14       = <Esc>[1;2Q
+  key_f15                   kf15       = <Esc>[1;2R
+  key_f16                   kf16       = <Esc>[1;2S
+  key_f17                   kf17       = <Esc>[15;2~
+  key_f18                   kf18       = <Esc>[17;2~
+  key_f19                   kf19       = <Esc>[18;2~
+  key_f20                   kf20       = <Esc>[19;2~
+  key_f21                   kf21       = <Esc>[20;2~
+  key_f22                   kf22       = <Esc>[21;2~
+  key_f23                   kf23       = <Esc>[23;2~
+  key_f24                   kf24       = <Esc>[24;2~
+  key_f25                   kf25       = <Esc>[1;5P
+  key_f26                   kf26       = <Esc>[1;5Q
+  key_f27                   kf27       = <Esc>[1;5R
+  key_f28                   kf28       = <Esc>[1;5S
+  key_f29                   kf29       = <Esc>[15;5~
+  key_f30                   kf30       = <Esc>[17;5~
+  key_f31                   kf31       = <Esc>[18;5~
+  key_f32                   kf32       = <Esc>[19;5~
+  key_f33                   kf33       = <Esc>[20;5~
+  key_f34                   kf34       = <Esc>[21;5~
+  key_f35                   kf35       = <Esc>[23;5~
+  key_f36                   kf36       = <Esc>[24;5~
+  key_f37                   kf37       = <Esc>[1;6P
+  key_f38                   kf38       = <Esc>[1;6Q
+  key_f39                   kf39       = <Esc>[1;6R
+  key_f40                   kf40       = <Esc>[1;6S
+  key_f41                   kf41       = <Esc>[15;6~
+  key_f42                   kf42       = <Esc>[17;6~
+  key_f43                   kf43       = <Esc>[18;6~
+  key_f44                   kf44       = <Esc>[19;6~
+  key_f45                   kf45       = <Esc>[20;6~
+  key_f46                   kf46       = <Esc>[21;6~
+  key_f47                   kf47       = <Esc>[23;6~
+  key_f48                   kf48       = <Esc>[24;6~
+  key_f49                   kf49       = <Esc>[1;3P
+  key_f50                   kf50       = <Esc>[1;3Q
+  key_f51                   kf51       = <Esc>[1;3R
+  key_f52                   kf52       = <Esc>[1;3S
+  key_f53                   kf53       = <Esc>[15;3~
+  key_f54                   kf54       = <Esc>[17;3~
+  key_f55                   kf55       = <Esc>[18;3~
+  key_f56                   kf56       = <Esc>[19;3~
+  key_f57                   kf57       = <Esc>[20;3~
+  key_f58                   kf58       = <Esc>[21;3~
+  key_f59                   kf59       = <Esc>[23;3~
+  key_f60                   kf60       = <Esc>[24;3~
+  key_f61                   kf61       = <Esc>[1;4P
+  key_f62                   kf62       = <Esc>[1;4Q
+  key_f63                   kf63       = <Esc>[1;4R
+  clr_bol                   el1        = <Esc>[1K
+  orig_pair                 op         = <Esc>[39;49m
+  orig_colors               oc         = <Esc>]104<C-G>
+  initialize_color          initc      = <Esc>]4;%p1%d;rgb:%p2%{255}%*%{1000}%/%2.2X/%p3%{255}%*%{1000}%/%2.2X/%p4%{255}%*%{1000}%/%2.2X<Esc>\
+  enter_italics_mode        sitm       = <Esc>[3m
+  exit_italics_mode         ritm       = <Esc>[23m
+  key_mouse                 kmous      = <Esc>[M
+  set_a_foreground          setaf      = <Esc>[%?%p1%{8}%<%t3%p1%d%e%p1%{16}%<%t9%p1%{8}%-%d%e38;5;%p1%d%;m
+  set_a_background          setab      = <Esc>[%?%p1%{8}%<%t4%p1%d%e%p1%{16}%<%t10%p1%{8}%-%d%e48;5;%p1%d%;m
+  set_tb_margin             smgtb      = <Esc>[%i%p1%d;%p2%dr
+Extended boolean capabilities:
+  Su                        = true
+  Tc                        = true
+  fullkbd                   = true
+Extended string capabilities:
+  kDC3                      = <Esc>[3;3~
+  kDC4                      = <Esc>[3;4~
+  kDC5                      = <Esc>[3;5~
+  kDC6                      = <Esc>[3;6~
+  kDC7                      = <Esc>[3;7~
+  kDN                       = <Esc>[1;2B
+  kDN3                      = <Esc>[1;3B
+  kDN4                      = <Esc>[1;4B
+  kDN5                      = <Esc>[1;5B
+  kDN6                      = <Esc>[1;6B
+  kDN7                      = <Esc>[1;7B
+  kEND3                     = <Esc>[1;3F
+  kEND4                     = <Esc>[1;4F
+  kEND5                     = <Esc>[1;5F
+  kEND6                     = <Esc>[1;6F
+  kEND7                     = <Esc>[1;7F
+  kHOM3                     = <Esc>[1;3H
+  kHOM4                     = <Esc>[1;4H
+  kHOM5                     = <Esc>[1;5H
+  kHOM6                     = <Esc>[1;6H
+  kHOM7                     = <Esc>[1;7H
+  kIC3                      = <Esc>[2;3~
+  kIC4                      = <Esc>[2;4~
+  kIC5                      = <Esc>[2;5~
+  kIC6                      = <Esc>[2;6~
+  kIC7                      = <Esc>[2;7~
+  kLFT3                     = <Esc>[1;3D
+  kLFT4                     = <Esc>[1;4D
+  kLFT5                     = <Esc>[1;5D
+  kLFT6                     = <Esc>[1;6D
+  kLFT7                     = <Esc>[1;7D
+  kNXT3                     = <Esc>[6;3~
+  kNXT4                     = <Esc>[6;4~
+  kNXT5                     = <Esc>[6;5~
+  kNXT6                     = <Esc>[6;6~
+  kNXT7                     = <Esc>[6;7~
+  kPRV3                     = <Esc>[5;3~
+  kPRV4                     = <Esc>[5;4~
+  kPRV5                     = <Esc>[5;5~
+  kPRV6                     = <Esc>[5;6~
+  kPRV7                     = <Esc>[5;7~
+  kRIT3                     = <Esc>[1;3C
+  kRIT4                     = <Esc>[1;4C
+  kRIT5                     = <Esc>[1;5C
+  kRIT6                     = <Esc>[1;6C
+  kRIT7                     = <Esc>[1;7C
+  kUP                       = <Esc>[1;2A
+  kUP3                      = <Esc>[1;3A
+  kUP4                      = <Esc>[1;4A
+  kUP5                      = <Esc>[1;5A
+  kUP6                      = <Esc>[1;6A
+  kUP7                      = <Esc>[1;7A
+  rmxx                      = <Esc>[29m
+  setrgbb                   = <Esc>[48:2:%p1%d:%p2%d:%p3%dm
+  setrgbf                   = <Esc>[38:2:%p1%d:%p2%d:%p3%dm
+  smxx                      = <Esc>[9m
+  ext.get_bg                = <Esc>]11;?<C-G>
+  Ss                        = <Esc>[%p1%d q
+  Se                        = <Esc>[ q
+  ext.resize_screen         = <Esc>[8;%p1%d;%p2%dt
+  ext.reset_scroll_region   = <Esc>[r
+  ext.set_cursor_color      = <Esc>]12;#%p1%06x<C-G>
+  ext.reset_cursor_color    = <Esc>]112<C-G>
+  ext.save_title            = <Esc>[22;0;0t
+  ext.restore_title         = <Esc>[23;0;0t
+  ext.enable_lr_margin      = <Esc>[?69h
+  ext.disable_lr_margin     = <Esc>[?69l
+  ext.enable_bpaste         = <Esc>[?2004h
+  ext.disable_bpaste        = <Esc>[?2004l
+  ext.enable_focus          = <Esc>[?1004h
+  ext.disable_focus         = <Esc>[?1004l
+  ext.enable_mouse          = <Esc>[?1002h<Esc>[?1006h
+  ext.disable_mouse         = <Esc>[?1002l<Esc>[?1006l
+  ext.set_underline_style   = <Esc>[4:%p1%dm
+  ext.set_underline_color   = <Esc>[58:2::%p1%d:%p2%d:%p3%dm
+}}}
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+"~/projects/image-filter/benches/formatting.rs" 48L, 1203C
+Reading ShaDa file "/home/eto/.local/share/nvim/shada/main.shada" marks
+Executing BufReadPost Autocommands for "*.rs"
+autocommand setf rust
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/rust.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/rust.vim
+continuing in function <SNR>7_SynSet
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/rust.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/after/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/home/eto/.config/nvim/after/ftplugin/rust.vim"
+finished sourcing /home/eto/.config/nvim/after/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/indent)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/usr/share/nvim/runtime/indent/rust.vim"
+finished sourcing /usr/share/nvim/runtime/indent/rust.vim
+continuing in function <SNR>12_LoadIndent
+Executing FileType Autocommands for "rust"
+autocommand lua require'nvim_lsp'["rust_analyzer"].manager.try_add()
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+"~/projects/image-filter/benches/bench.rs" 23L, 653C
+Reading ShaDa file "/home/eto/.local/share/nvim/shada/main.shada" marks
+Executing BufReadPost Autocommands for "*.rs"
+autocommand setf rust
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/rust.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/rust.vim
+continuing in function <SNR>7_SynSet
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/rust.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/after/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/home/eto/.config/nvim/after/ftplugin/rust.vim"
+finished sourcing /home/eto/.config/nvim/after/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/indent)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/usr/share/nvim/runtime/indent/rust.vim"
+finished sourcing /usr/share/nvim/runtime/indent/rust.vim
+continuing in function <SNR>12_LoadIndent
+Executing FileType Autocommands for "rust"
+autocommand lua require'nvim_lsp'["rust_analyzer"].manager.try_add()
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+"~/projects/image-filter/benches/bytes.rs" 48L, 1203C
+Reading ShaDa file "/home/eto/.local/share/nvim/shada/main.shada" marks
+Executing BufReadPost Autocommands for "*.rs"
+autocommand setf rust
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/rust.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/rust.vim
+continuing in function <SNR>7_SynSet
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/rust.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/after/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/home/eto/.config/nvim/after/ftplugin/rust.vim"
+finished sourcing /home/eto/.config/nvim/after/ftplugin/rust.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/indent)
+chdir(/home/eto/projects/image-filter)
+line 14: sourcing "/usr/share/nvim/runtime/indent/rust.vim"
+finished sourcing /usr/share/nvim/runtime/indent/rust.vim
+continuing in function <SNR>12_LoadIndent
+Executing FileType Autocommands for "rust"
+autocommand lua require'nvim_lsp'["rust_analyzer"].manager.try_add()
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing CursorHold Autocommands for "*"
+autocommand lua vim.lsp.util.show_line_diagnostics()
+
+
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+Executing BufWritePre Autocommands for "*.rs"
+autocommand silent! call rustfmt#Format()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/autoload)
+chdir(/home/eto/projects/image-filter)
+line 0: sourcing "/usr/share/nvim/runtime/autoload/rustfmt.vim"
+finished sourcing /usr/share/nvim/runtime/autoload/rustfmt.vim
+continuing in BufWritePre Autocommands for "*.rs"
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+Executing command: "'/usr/bin/fish' '-c' 'rustup run nightly rustfmt --write-mode=overwrite --edition=2018 '/home/eto/projects/image-filter/src/.main.rs.rustfmt''"
+
+
+  1 #![allow(dead_code)]
+  2 use actix_service::Service;
+  3 use actix_web::{
+  4     get,
+  5     web::{Data, Path},
+  6     App, HttpRequest, HttpResponse, HttpServer, Responder,
+  7 };
+  8 use futures::future::FutureExt;
+  9 use image_filter::{split_last, Image, ImageCache};
+ 10 use std::collections::HashSet;
+ 11  
+ 12 use std::fs::File;
+ 13 use std::io::{self, BufRead};
+ 14 use std::path;
+ 15  
+ 16 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
+ 17 where
+ 18     P: AsRef<path::Path>,
+ 19 {
+ 20     let file = File::open(filename)?;
+ 21     Ok(io::BufReader::new(file).lines())
+ 22 }
+ 23  
+ 24 #[macro_use]
+ 25 extern crate clap;
+ 26 use std::sync::{Arc, Mutex};
+ 27  
+ 28 #[get("/images/{image}")]
+ 29 async fn get_image(
+ 30     req: HttpRequest,
+ 31     Path(image): Path<String>,
+ 32     data: Data<Arc<Mutex<ImageCache>>>,
+ 33 ) -> impl Responder {
+ 34     let res = Image::new(&image)
+ 35         .filter_from_qs(req.query_string())
+ 36         .to_http_response(data);
+ 37     res
+ 38 }
+ 39  
+ 40 #[actix_web::main]
+ 41 async fn main() -> std::io::Result<()> {
+ 42     let data = Arc::new(Mutex::new(ImageCache::new()));
+ 43  
+ 44     let yaml = load_yaml!("cli.yml");
+ 45     let matches = clap::App::from_yaml(yaml).get_matches();
+ 46  
+ 47     std::env::set_current_dir(matches.value_of("directory").unwrap_or(".")).unwrap();
+ 48     println!(
+ 49         "Images being read from: {:?}.",
+ 50         std::env::current_dir().unwrap()
+ 51     );
+ 52     println!("Make sure that the source images are marked as <image-name>.source.<image-type>.\nFor example if you want to be able to request mountain.jpg, name the source file mountain.source.jpg.\n");
+ 53  
+ 54     let port = matches.value_of("port").unwrap_or("9000");
+ 55     let socket = ["127.0.0.1:", port].concat();
+ 56     println!("Listening on {}", socket);
+ 57  
+ 58     match matches.value_of("whitelist") {
+ 59         None => {
+ 60             HttpServer::new(move || App::new().data(data.clone()).service(get_image))
+ 61                 .bind(socket)?
+ 62                 .run()
+ 63                 .await
+ 64         }
+ 65         Some(whitelist) => {
+ 66             let whitelist: HashSet<String> = read_lines(whitelist)
+ 67                 .unwrap()
+ 68                 .filter_map(|line| {
+ 69                     if let Ok(line) = line {
+ 70                         Some(line)
+ 71                     } else {
+ 72                         None
+ 73                     }
+ 74                 })
+ 75                 .collect();
+ 76  
+ 77             let whitelist = Arc::new(Mutex::new(whitelist));
+ 78             HttpServer::new(move || {
+ 79                 let whitelist = whitelist.clone();
+ 80                 App::new()
+ 81                     .wrap_fn(move |req, srv| {
+ 82                         let whitelist = whitelist.clone();
+ 83                         let uri = req.uri().to_string();
+ 84                         let (_, file_name) = split_last(&uri, '/');
+ 85                         let file_name = file_name.to_owned();
+ 86                         srv.call(req).map(move |res| {
+ 87                             if whitelist.clone().lock().unwrap().contains(&file_name) {
+ 88                                 return res;
+ 89                             }
+ 90                             Ok(res?.into_response(HttpResponse::NotFound().finish()))
+ 91                         })
+ 92                     })
+ 93                     .data(data.clone())
+ 94                     .service(get_image)
+ 95             })
+ 96             .bind(socket)?
+ 97             .run()
+ 98             .await
+ 99         }
+100     }
+101 }
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+"src/main.rs" 
+"src/main.rs" 101L, 3235C written
+chdir(/home/eto/projects/image-filter)
+chdir(src)
+chdir(/home/eto/projects/image-filter)
+Executing BufWritePost Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufWritePost Autocommands for "*"
+autocommand :exec "!rustup run nightly rustfmt --edition=2018 %"
+
+:!rustup run nightly rustfmt --edition=2018 src/main.rs
+
+Executing command: "rustup run nightly rustfmt --edition=2018 src/main.rs"
+
+
+Executing BufWritePost Autocommands for "<buffer=1>"
+autocommand lua vim.lsp._text_document_did_save_handler(0)
+
+Executing BufWritePost Autocommands for "*"
+autocommand :exec "!rustup run nightly rustfmt --edition=2018 %"
+
+:!rustup run nightly rustfmt --edition=2018 src/main.rs
+
+Executing command: "rustup run nightly rustfmt --edition=2018 src/main.rs"
+
+
+Executing BufWritePost Autocommands for "*"
+autocommand :exec "!rustup run nightly rustfmt --edition=2018 %"
+
+:!rustup run nightly rustfmt --edition=2018 src/main.rs
+
+Executing command: "rustup run nightly rustfmt --edition=2018 src/main.rs"
+
+
+Executing BufWritePost Autocommands for "*"
+autocommand :exec "!rustup run nightly rustfmt --edition=2018 %"
+
+:!rustup run nightly rustfmt --edition=2018 src/main.rs
+
+Executing command: "rustup run nightly rustfmt --edition=2018 src/main.rs"
+
+
+Executing CursorMoved Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/benches)
+chdir(/home/eto/projects/image-filter)
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing FileType Autocommands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/syntax)
+chdir(/home/eto/projects/image-filter)
+line 24: sourcing "/usr/share/nvim/runtime/syntax/qf.vim"
+finished sourcing /usr/share/nvim/runtime/syntax/qf.vim
+continuing in function <SNR>7_SynSet
+Executing Syntax Autocommands for "<buffer=5>"
+autocommand call s:setup_toc()
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/usr/share/nvim/runtime/ftplugin)
+chdir(/home/eto/projects/image-filter)
+line 17: sourcing "/usr/share/nvim/runtime/ftplugin/qf.vim"
+finished sourcing /usr/share/nvim/runtime/ftplugin/qf.vim
+continuing in function <SNR>11_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in 'runtimepath': "indent/qf.vim"
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufWinEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing CursorHold Autocommands for "*"
+autocommand lua vim.lsp.util.show_line_diagnostics()
+
+
+Executing WinEnter Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing BufEnter Autocommands for "*"
+autocommand lua require'lsp_extensions'.inlay_hints{ prefix = '', highlight = "Comment" }
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing TextChanged Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter/src)
+chdir(/home/eto/projects/image-filter)
+Executing CursorHold Autocommands for "*"
+autocommand lua vim.lsp.util.show_line_diagnostics()
+
+
+Executing VimLeavePre Autocommands for "*"
+autocommand lua vim.lsp._vim_exit_handler()
+
+Writing ShaDa file "/home/eto/.local/share/nvim/shada/main.shada"
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/after/ftplugin)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/.config/nvim/modules)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)
+chdir(/home/eto/projects/image-filter)

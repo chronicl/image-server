@@ -1,6 +1,6 @@
 name: image-filter
 version: "0.1"
-author: <lxrtlxrt@gmail.com>
+author: lxrtlxrt@gmail.com
 about: A rust web server for resizing and or converting images to webp
 args:
   - port:
@@ -26,3 +26,24 @@ args:
       long: directory
       value_name: DIR
       help: Set image directory
+  - track-for-whitelist:
+      long: tfw
+      help: "Creates a whitelist (file) and adds any api calls that are made to it. The whitelist can later be used with the flag --whitelist or -w"
+subcommands:
+  - whitelist:
+      about: Creates a whitelist by recursively parsing all html, css and js files of some directory
+      version: "0.1"
+      author: lxrtlxrt@gmail.com
+      args:
+        - preceding_pattern:
+            short: p
+            long: preceding
+            value_name: PATTERN
+            help: "Pattern that preceds all image file names. Ex.: if you refer to your images as images/<image-name><query-string> in html/css/js then the preceding pattern would be images/"
+            takes_value: true
+        - dir_to_parse:
+            short: d
+            long: directory
+            value_name: <DIR>
+            help: "The directory to parse"
+            takes_value: true
