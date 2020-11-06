@@ -86,7 +86,10 @@ impl Filter {
         return format!("cp {} {}", input, output);
       }
 
-      format!("convert {} {} {}", filter_options, input, output)
+      format!(
+        "convert {} -quality 100 {} {}",
+        filter_options, input, output
+      )
     }
   }
 }
