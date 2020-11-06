@@ -49,6 +49,7 @@ impl Filter {
   pub fn from_qs(qs: &str) -> Result<Filter, serde_qs::Error> {
     serde_qs::from_str::<Filter>(qs)
   }
+
   fn get_command(self, input: &str, output: &str) -> String {
     if self.webp.is_some() {
       let resize: String;
@@ -105,11 +106,20 @@ pub struct Image<'a> {
 impl<'a> Image<'a> {
   pub fn new(file_name: &'a str) -> Self {
     let (name, image_type) = split_last(file_name, '.');
+    let mut filter: Option<Filter> = None;
+    if image_type == "webp" {
+      filter = Some(Filter {
+        width: None,
+        height: None,
+        quality: None,
+        webp: Some(()),
+      })
+    }
 
     Image {
       name,
       image_type,
-      filter: None,
+      filter,
       file_name: file_name.into(),
     }
   }
