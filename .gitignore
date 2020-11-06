@@ -1,1 +1,2 @@
 /target
+!/target/x86_64-unkown-linux-musl/release/image-server
